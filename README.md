@@ -4,10 +4,8 @@ This is the Docker Compose definition for the Data Mining project. To get
 started:
 
 ```sh
-git clone https://github.com/data-mining-code/compose
-git clone https://github.com/data-mining-code/frontend
-git clone https://github.com/data-mining-code/broker
 cd compose
+./install.sh
 docker-compose up -d
 ```
 
