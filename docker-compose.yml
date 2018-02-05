@@ -12,3 +12,7 @@ services:
       - "3030:3030"
     volumes:
       - ../broker:/usr/src/app
+  pythontest:
+    build: ../pythontest
+    volumes:
+      - ../pythontest:/app
