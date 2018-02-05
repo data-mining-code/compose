@@ -6,7 +6,6 @@ started:
 ```sh
 cd compose
 ./install.sh
-docker-compose up -d
 ```
 
 This launches every component and exposes the frontend to 
