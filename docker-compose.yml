@@ -22,7 +22,7 @@ services:
       - ../pythontest:/app
     env_file: .env
   dashboard:
-    build: ../dashboard
+    build: ../dashboard_backend
     volumes:
-      - ../dashboard:/app
+      - ../dashboard_backend:/app
     env_file: .env
